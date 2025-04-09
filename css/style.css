@@ -13,7 +13,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 88px;
 }
@@ -31,7 +31,7 @@ nav a:hover {
 
 a {
     text-decoration: none;
-    margin-left: 60px;
+    margin: 30px;
     color: white;
 }
 
@@ -50,7 +50,7 @@ h1 {
 
 
 
-.cover_text h1{
+.cover_text h1 {
     width: 700px;
 }
 
@@ -66,25 +66,13 @@ h1 {
     margin-bottom: 36px;
 }
 
-.button_cover {
-    background-color: #7D1321;
-    color: white;
-    height: 57px;
-    width: 221px;
-    border-radius: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: normal;
-    border: 0px;
-}
-
 button:hover {
     background-color: white;
-    color: #7D1321;
+    color: #0072BC;
 }
 
 #cover {
-    background-image: url(/647cf488-b599-4b03-9d2d-f352323110aa\ 1.png);
+    background-image: url(/img/Cover_bg.png);
     height: 700px;
     background-size: cover;
     display: flex;
@@ -111,102 +99,19 @@ button:hover {
 .about_us_text p {
     font-size: 24px;
     margin-left: 20px;
+    text-align: justify;
 }
 
-#cover, #about_us,#form, #catalog, #blog,#contacts{
+#cover,
+#about_us,
+#blog,
+#contacts {
     margin-bottom: 100px;
 }
 
-#catalog h2{
-    color: white;
-    background-color: #65AAD8;
-    margin-bottom: 60px;
-    display: flex;
-    align-items: center;
-    height: 85px;
-    width: 450px;
-    font-size: 48px;
-    padding-left: 10px;
-}
 
-.card{
-    width: 365px;
-}
 
-.card_price{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.card_content{
- margin-bottom: 48px;
- height: 100px;
- line-height: 1.5;
-}
-
-.card img{
-    margin-bottom: 10px;
-}
-
-.btn_card{
-    color: white;
-    background-color: #7D1321;
-    font-size: 24px;
-    border-radius: 15px;
-    height: 57px;
-    width: 365px;
-    font-weight: bold;
-    font-style: normal;
-}
-
-.cards{
-    display: flex;
-    justify-content: space-between;
-}
-
-.id_header{
-    font-size: 32px;
-}
-
-#form{
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/image/bs_sadovniki.jpg);
-    background-size: cover;
-}
-
-#form h2{
-    margin-bottom: 96px;
-}
-
-#form input{
-    margin-bottom: 20px;
-    height: 58px;
-    width: 360px;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.btn_form{
-    width: 363px ;
-    height: 57px ;
-    background-color: #7D1321;
-    color: white;
-    border-radius: 15px;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 32px;
-}
-
-#blog h2{
+.blog_heading {
     color: white;
     background-color: #65AAD8;
     margin-bottom: 36px;
@@ -217,7 +122,7 @@ form{
     font-size: 48px;
 }
 
-.blog_heading_2{
+.blog_heading_2 {
     color: white;
     background-color: #65AAD8;
     display: flex;
@@ -228,15 +133,15 @@ form{
     margin-bottom: 60px;
 }
 
-.blog_content{
+.blog_content {
     font-size: 24px;
     margin-bottom: 24px;
     height: 45px;
 }
 
-.btn_blog{
+.btn_blog {
     color: white;
-    background-color: #7D1321;
+    background-color: #0072BC;
     font-size: 24px;
     border-radius: 15px;
     height: 50px;
@@ -245,7 +150,7 @@ form{
     font-style: normal;
 }
 
-.card_blog{
+.card_blog {
     width: 560px;
     flex-direction: column;
     margin: 5px;
@@ -253,18 +158,18 @@ form{
 
 }
 
-.card_blog img{
+.card_blog img {
     margin-bottom: 10px;
 }
 
-.cards_blog{
+.cards_blog {
     display: flex;
     flex-wrap: wrap;
 }
 
-.contacts_heading{
+.contacts_heading {
     color: white;
-    background-color: black;
+    background-color: #65AAD8;
     margin-bottom: 36px;
     display: flex;
     align-items: center;
@@ -273,16 +178,16 @@ form{
     font-size: 48px;
 }
 
-.contacts_content{
+.contacts_content {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
     font-size: 36px;
 }
 
-.btn_contacts{
+.btn_contacts {
     color: white;
-    background-color: #7D1321;
+    background-color: #0072BC;
     font-size: 24px;
     border-radius: 15px;
     height: 57px;
@@ -291,23 +196,23 @@ form{
     font-style: normal;
 }
 
-.footer_left{
-    line-height: 2;
-    display: flex;
+.footer_contacts {
+    line-height: 2.5;
+    /* display: flex; */
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
 }
 
-.footer_right{
-    line-height: 2;
+.footer_menu {
+    line-height: 1.5;
 }
 
-.footer_right button{
+.footer_menu button {
     color: white;
-    background-color: #7D1321;
+    background-color: #0072BC;
     font-size: 14px;
     border-radius: 5px;
     width: 100px;
@@ -316,7 +221,65 @@ form{
     font-style: normal;
 }
 
-.button_footer:hover{
+.button_footer:hover {
     background-color: white;
-    color: #7D1321;
+    color: #0072BC;
 }
+
+/* Медиазапросы */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .cover_text h1 {
+        font-size: 36px;
+    }
+
+    .cover_text2 {
+        font-size: 20px;
+    }
+
+
+    .about_us_text h2 {
+        height: 70px;
+        width: 300px;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    .about_us_text p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .blog_heading {
+        height: 70px;
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .cards_blog{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts_heading{
+        height: 70px;
+        width: 400px;
+        font-size: 40px;
+    }
+    
+    .contacts_content p{
+        font-size: 30px;
+    }
+
+    /* .card_blog img{
+        width: 450px;
+        height: 300px;
+    } */
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 480px) {}
