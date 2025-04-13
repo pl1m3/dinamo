@@ -110,7 +110,9 @@ button:hover {
 #cover,
 #about_us,
 #blog,
-#contacts {
+#contacts,
+#team_header,
+#coaches {
     margin-bottom: 100px;
 }
 
@@ -149,6 +151,7 @@ button:hover {
     background-color: #0072BC;
     font-size: 24px;
     border-radius: 15px;
+    border: 0px;
     height: 50px;
     width: 220px;
     font-weight: bold;
@@ -193,6 +196,7 @@ button:hover {
 .btn_contacts {
     color: white;
     background-color: #0072BC;
+    border: 0px;
     font-size: 24px;
     border-radius: 15px;
     height: 57px;
@@ -218,6 +222,7 @@ button:hover {
 .footer_menu button {
     color: white;
     background-color: #0072BC;
+    border: 0px;
     font-size: 14px;
     border-radius: 5px;
     width: 100px;
@@ -321,3 +326,97 @@ button:hover {
 }
 
 @media (max-width: 480px) {}
+
+.coaches h2{
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    width: 418px;
+    height: 85px;
+    background-color: #D55050;
+}
+
+.coach_card_header{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+    height: 100px;
+}
+
+.coach_card_inf{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 16px;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    height: 70px;
+}
+
+.coach_card{
+    background-color: #892929;
+    width: 300px;
+    margin: 20px;
+    /* height: 471px; */
+}
+
+.coach_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.players h2{
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    width: 660px;
+    height: 85px;
+    background-color: #65AAD8;
+}
+
+.player_card_header{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 16px;
+    height: 70px;
+}
+
+.player_card_inf{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 16px;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    height: 150px;
+}
+
+.player_card{
+    background-color: #0072BC;
+    width: 300px;
+    margin: 20px;
+    /* height: 471px; */
+}
+
+.player_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inf{
+    font-weight: 400;
+}
