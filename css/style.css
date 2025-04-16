@@ -115,11 +115,17 @@ button:hover {
 #about_us,
 #blog,
 #contacts,
-#team_header,
-#coaches {
+#coaches,
+#players,
+#partners {
     margin-bottom: 100px;
 }
 
+
+#team_header,
+#partners_header{
+    margin-bottom: 50px;
+}
 
 
 .blog_heading {
@@ -223,7 +229,9 @@ button:hover {
     line-height: 1.5;
 }
 
-.footer_menu button {
+.button_footer {
+    display: inline-block;
+    text-align: center;
     color: white;
     background-color: #0072BC;
     border: 0px;
@@ -233,10 +241,13 @@ button:hover {
     height: 20px;
     font-weight: bold;
     font-style: normal;
+    margin: 5px;
 }
 
 .button_footer:hover {
     background-color: white;
+    margin: 4px;
+    border: solid 1px;
     color: #0072BC;
 }
 
@@ -436,3 +447,25 @@ button:hover {
     height: 85px;
     background-color: #65AAD8;
 }
+
+.partner_card{
+    display: flex;
+    background-color: #65AAD8;
+    align-items: center;
+    width: 1040px;
+    height: 300px;
+    padding: 20px;
+}
+
+.partner_inf{
+    color: white;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.partner_inf h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
