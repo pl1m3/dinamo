@@ -134,6 +134,7 @@ button:hover {
     margin-bottom: 36px;
     display: flex;
     align-items: center;
+    padding-left: 10px;
     height: 85px;
     width: 450px;
     font-size: 48px;
@@ -189,6 +190,7 @@ button:hover {
     color: white;
     background-color: #65AAD8;
     margin-bottom: 36px;
+    padding-left: 10px;
     display: flex;
     align-items: center;
     height: 85px;
@@ -312,19 +314,20 @@ button:hover {
     } */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
     .cover_text h1 {
-        font-size: 30px;
+        font-size: 4vw;
         width: 70vw;
+        height: 10vw;
     }
 
     .cover_text2 {
-        font-size: 18px;
+        font-size: 2.5vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 55px;
+        height: 6vw;
         width: 60vw;
         margin-bottom: 36px;
     }
@@ -334,10 +337,44 @@ button:hover {
         height: 35vw;
     }
 
-    .about_us_content_2{
-        display: flex;
-        flex-direction: column;
+    .about_us_content{
+        flex-direction: column-reverse;
+        align-items: center;
     }
+
+    .about_us_text h2{
+        width: 30vw;
+        font-size: 5vw;
+        height: 10vw;
+        margin-bottom: 10px;
+    }
+
+    .about_us_content img{
+        width: 55%;
+        height: 50%;
+    }
+
+    .about_us_text{
+        margin-bottom: 20px;
+    }
+
+    .contacts_heading {
+        width: 50vw;
+        font-size: 5vw;
+        height: 10vw;
+    }
+
+    .contacts_content p{
+        font-size: 5vw;
+        margin-bottom:2%;
+    }
+
+    .footer_logo img{
+        width: 13vw;
+        height: 15vw;
+    }
+
+    
 }
 
 @media (max-width: 480px) {}
@@ -469,3 +506,7 @@ button:hover {
     font-weight: 600;
 }
 
+.inff{
+    text-indent: 30px;
+    line-height: 1.3;
+}
